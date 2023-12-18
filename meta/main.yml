@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Maksimova Yulia
+  description: Install Vector
+  company: Netology
+
+  license: MIT
+
+  min_ansible_version: 2.8
+
+  platforms:
+  - name: Centos
+    versions:
+    - 7
+    - 8
+
+  galaxy_tags: []
+    - vector
