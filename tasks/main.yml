@@ -16,7 +16,7 @@
   ansible.builtin.template:
      src: vector.yaml.j2
      mode: 0644
-     dest: /etc/vector/vector.yaml
-     owner: vector
-     group: vector
+     dest: "{{ vector_dir }}/vector.yaml"
+     owner: "{{ vector_os_user }}"
+     group: "{{ vector_os_group }}"
   notify: Start vector service
